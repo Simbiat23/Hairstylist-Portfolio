@@ -1,9 +1,50 @@
-h1 {
-  font-family: "Poppins", serif;
+:root {
+  --primary-colour: #f1e8c7;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", serif;
+  --btn-colour: #8c7b6e;
+}
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
+h1 {
+  font-size: 96px;
+}
 p {
-  font-family: "Playfair Display", serif;
+  font-family: var(--default-font-family);
   font-weight: normal;
+}
+
+.hero {
+  background-image: url(/images/IMG-LAN.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: var(--primary-colour);
+  padding: 190px;
+}
+
+.hero h1 {
+  font-family: "Arimo", sans-serif;
+}
+
+.hero p {
+  font-weight: bold;
+}
+.hero h2 {
+  font-family: "Poppins", serif;
+  line-height: 2;
+  font-size: 24px;
+}
+.btn-design {
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 12px 20px;
+  line-height: 27px;
+  background-color: var(--btn-colour);
+  color: white;
 }
