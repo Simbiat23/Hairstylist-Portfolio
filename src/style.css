@@ -28,6 +28,8 @@ p {
   line-height: 30px;
 }
 
+/*Home section*/
+
 .hero {
   background-image: url(/images/IMG-LAN.png);
   background-size: cover;
@@ -80,6 +82,7 @@ p {
 }
 .our-services {
   background-color: var(--primary-colour);
+  padding: 190px 20px;
 }
 .our-services h2 {
   font-size: 2.2rem;
@@ -90,6 +93,22 @@ p {
   color: #444;
 }
 
+.reviews h2 {
+  color: #444;
+}
+/*About section*/
+.about-section {
+  padding: 190px 20px;
+}
+.about-section h1 {
+  font-weight: normal;
+}
+.about-section-container {
+  margin: 30px;
+}
+.img {
+  border-radius: 20px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -101,5 +120,8 @@ p {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
   }
 }
