@@ -31,7 +31,7 @@ p {
 /* Nav section*/
 nav {
   padding: 10px 0px;
-  padding-bottom: 0;
+  padding-bottom: 13px;
   background-color: var(--primary-colour);
   margin-bottom: 15px;
 }
@@ -263,6 +263,14 @@ h3 {
 }
 
 /*Contact section*/
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  text-align: center;
+}
 .contact-us h3 {
   color: black;
 }
@@ -288,6 +296,7 @@ footer {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
 .email-link {
   color: var(--btn-colour);
   font-size: 24px;
