@@ -178,6 +178,9 @@ h3 {
 }
 .about-section {
   padding: 150px 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 .about-section h1 {
   font-weight: normal;
@@ -232,12 +235,6 @@ h3 {
   font-weight: normal;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 /*Gallery section*/
 .gallery-container h1 {
   font-family: var(--heading-font-family);
@@ -284,7 +281,9 @@ h3 {
 
 /*Foot section*/
 footer {
+  padding: 10px;
   margin: 60px 0;
+
   padding: 20px;
 }
 .footer-container {
@@ -292,9 +291,13 @@ footer {
 }
 .contact-box {
   background-color: var(--primary-colour);
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
+}
+.contact-box .btn-design {
+  display: flex;
+  justify-content: center;
 }
 
 .email-link {
