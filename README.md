@@ -1,7 +1,7 @@
 ## SKTHair 💇‍♀️
 🌍 Live Website
 
-Welcome to SKTHair—where quality meets style. Offering personalized beauty services to give you your perfect look. Book now and let our team bring your hair dreams to life.
+Welcome to SKTHair, where quality meets style. Offering personalized beauty services to give you your perfect look. Book now and let our team bring your hair dreams to life.
 
 # Features
 Clean and inviting homepage with clear branding
